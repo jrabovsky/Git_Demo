@@ -44,6 +44,9 @@ background-image: url(http://pavetech.olhblogspace.com/wp-content/uploads/2012/0
 * A central authoritative source for up to date documentation and code
 * Allow collaboration on the same file(s) without stepping on each other
 
+.center[![Git](https://s-media-cache-ak0.pinimg.com/236x/c8/bf/07/c8bf074dca97c71cb7bea5253fea38bf.jpg)]
+
+
 ---
 
 # Git Lets You Do This:
