@@ -220,6 +220,7 @@ no changes added to commit (use "git add" and/or "git commit -a")
 ---
 
 # But Wait, There's More!
+* Editor integration
 * Branching/merging
 * Pull requests
 * Tagging
