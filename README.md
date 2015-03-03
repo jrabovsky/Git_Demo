@@ -5,7 +5,6 @@ Slides for a presentation on Git and Github
 - Ruby 2.0.0 or greater (host machine)
   - For Windows, use http://rubyinstaller.org (check "add Ruby executables to your PATH")
   - In cmd.exe, `ruby -v` should show the Ruby version
-- WinRM (target machine)
 
 ## Install Dependencies
 ```
@@ -15,7 +14,7 @@ $ bundle install
 
 ## Run
 ```
-$ bundle rackup
+$ bundle exec rackup
 ```
 
 ## Potential Problems
