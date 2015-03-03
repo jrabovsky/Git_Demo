@@ -186,3 +186,41 @@ $ git pull
 background-image: url(http://jordankasper.com/git/images/DistributedVCS.png)
 
 ---
+
+# Merge Conflicts
+
+```bash
+$ git pull
+remote: Counting objects: 3, done.
+remote: Total 3 (delta 0), reused 3 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+From github.com:jrabovsky/demo
+   46c3bca..a2698e8  master     -> origin/master
+Auto-merging animals.txt
+CONFLICT (content): Merge conflict in animals.txt
+Automatic merge failed; fix conflicts and then commit the result.
+
+$ git status
+On branch master
+Your branch and 'origin/master' have diverged,
+and have 1 and 1 different commit each, respectively.
+  (use "git pull" to merge the remote branch into yours)
+
+You have unmerged paths.
+  (fix conflicts and run "git commit")
+
+Unmerged paths:
+  (use "git add <file>..." to mark resolution)
+
+        both modified:   animals.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+```
+
+---
+
+# But Wait, There's More!
+* Branching/merging
+* Pull requests
+* Tagging
+* Submodules
