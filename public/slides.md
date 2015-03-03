@@ -28,3 +28,161 @@ Github is a website where you can upload a copy of your Git repository. It provi
 interface to view it, and additional features which allow you to specify, discuss, and review changes.
 
 .center[![Git](http://media.creativebloq.futurecdn.net/sites/creativebloq.com/files/images/2013/06/16-logo.jpg)]
+
+---
+
+background-image: url(http://pavetech.olhblogspace.com/wp-content/uploads/2012/09/teamwork_teamwork_A.jpg)
+
+---
+
+# Why Bother With Git?
+* Complete history of all changes
+* Undo changes
+* Restore deleted or overwritten files
+* Confidently change anything
+* Documentation of who/when/why changes were made
+* A central authoritative source for up to date documentation and code
+* Allow collaboration on the same file(s) without stepping on each other
+
+---
+
+# Git Lets You Do This:
+
+.center[![Git](http://hades.name/media/git/git-history.png)]
+
+---
+
+# Git Basics
+* **Clone:** Download a repository
+* **Commit:** Snapshot your local repository
+* **Push:** Send your commits to your remote repository
+* **Pull:** Get others' commits from your remote repository
+
+.center[![Git](http://guides.beanstalkapp.com/version-control/intro-to-version-control/cvc.png)]
+
+---
+
+# Installing Git
+http://git-scm.com/download/win
+
+---
+
+# Enable Explorer Integration
+.center[![Git](/git_setup.png)]
+
+---
+
+# 1st Option
+.center[![Git](/git_setup2.png)]
+
+---
+
+# 1st Option
+.center[![Git](/git_setup3.png)]
+
+---
+
+# Tell Git Who You Are
+
+```bash
+$ git config --global user.email "you@example.com"
+$ git config --global user.name "Your Name"
+```
+
+---
+
+# Working With Local Repositories
+
+---
+
+# Git Init
+
+```bash
+$ cd demo
+$ git init
+```
+
+---
+
+# Staging
+
+```bash
+$ git status
+$ git add file.txt
+```
+
+---
+
+# Commit
+
+```bash
+$ git commit -m "What changed and why"
+```
+
+---
+
+# Viewing an Old Revision
+
+```bash
+$ git log
+$ git checkout a1e8fb5
+$ git checkout master # go back
+```
+
+---
+
+# .gitignore File
+* Keep passwords, keys, and other sensitive information out of git
+* Don't need to track log files most of the time
+
+---
+
+# Working With Remote Repositories
+
+---
+
+# SSH Keys
+https://help.github.com/articles/generating-ssh-keys/
+
+---
+
+# Create a Repository
+
+.center[![Git](https://help.github.com/assets/images/help/repository/repo-create.png)]
+
+---
+
+background-image: url(https://help.github.com/assets/images/help/repository/repo-create-name.png)
+
+---
+
+# Git Push
+
+```bash
+$ git remote add origin git@github.com:jrabovsky/demo.git
+$ git push -u origin master
+```
+
+---
+
+# Git Clone
+
+```bash
+$ git clone git@github.com:jrabovsky/demo.git
+```
+
+.center[![Git](https://help.github.com/assets/images/help/repository/clone-repo-clone-url-button.png)]
+
+---
+
+# Git Pull
+
+```bash
+$ git pull
+```
+
+---
+
+background-image: url(http://jordankasper.com/git/images/DistributedVCS.png)
+
+---
